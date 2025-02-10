@@ -1,5 +1,7 @@
 body {
-  background-color: rgb(40, 40, 40);
+  /* background-color: rgb(40, 40, 40); */
+  background-image: url(images/Background.jpg);
+  background-size: 110% auto;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   color: white;
@@ -28,7 +30,7 @@ a:hover {
 }
 
 .container {
-  width: 900px;
+  width: 600px;
   margin: auto;
 }
 
