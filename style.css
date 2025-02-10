@@ -1,0 +1,92 @@
+body {
+  background-color: rgb(40, 40, 40);
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: white;
+}
+
+img {
+  border-radius: 10%;
+}
+
+h1, h2 {
+  font-family: "Poppins", sans-serif;
+  color: rgb(241, 127, 6);
+  line-height: 1rem;
+  font-weight: 600;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+a:hover {
+  opacity: 1;
+  transition-duration: 1s;
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+.card {
+  background-color: rgb(60, 60, 60);
+  padding: 16px;
+  margin: 16px;
+  border: 0.2px solid lightgrey;
+  border-radius: 0.2rem;
+  box-shadow: 0px 0px 5px rgba(241, 127, 6, 1);
+}
+
+.text-align {
+  text-align: center;
+}
+
+#PP {
+  border-radius: 35%;
+}
+
+.list-unstyled {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 16px
+}
+
+i {
+  font-size: 3rem;
+  color: rgb(241, 127, 6);
+}
+
+.btn {
+  background-color: rgb(241, 127, 6);
+  padding: 8px;
+  border-radius: 1rem;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
